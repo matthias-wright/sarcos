@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import data_loader
-import nearest_neighbors
-import linear_regression
-import random_forests
-import gaussian_processes
+import models.nearest_neighbors as nearest_neighbors
+import models.linear_regression as linear_regression
+import models.random_forests as random_forests
+import models.gaussian_processes as gaussian_processes
 
 
 data = data_loader.DataLoader('sarcos_inv.csv')

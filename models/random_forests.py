@@ -5,7 +5,7 @@ This module implements the random forests algorithm.
 """
 
 import numpy as np
-import decision_tree
+from . import decision_tree
 
 
 class RandomForest:
